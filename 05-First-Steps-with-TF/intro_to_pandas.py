@@ -1,8 +1,8 @@
 from __future__ import print_function
 import pandas as pd
 import matplotlib.pyplot as plt
-import ssl
 import numpy as np
+import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
 # print(pd.__version__)
